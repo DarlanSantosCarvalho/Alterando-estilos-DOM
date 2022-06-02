@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterando estilos com DOM</title>
+
+    <style>
+        .fonte-grande{
+            font-weight: bold;
+            font-size: 30p;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Alterando estilos com DOM</h1>
+
+    <button onclick="alterarBackgroundPrimeiroPost()">Alterar cor de fundo do primeiro post</button>
+
+    <article class="post">
+
+        <p><strong>Ricardo Dias</strong> <span>@caduHD - 10 min</span></p>
+        <p class="texto-post">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi non vero a officiis quo natus ipsum
+            blanditiis qui fuga. Alias distinctio esse minima illo saepe illum consequatur ullam placeat.
+        </p>
+
+    </article>
+
+    
+    <button onclick="aumentarFonteSegundoPost()">Alterar a fonte do segundo post</button>
+
+
+    <article class="post">
+
+        <p><strong>Ricardo Dias</strong> <span>@caduHD - 10 min</span></p>
+        <p class="texto-post">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque modi non vero a officiis quo natus ipsum
+            blanditiis qui fuga. Alias distinctio esse minima illo saepe illum consequatur ullam placeat.
+        </p>
+        
+    </article>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
